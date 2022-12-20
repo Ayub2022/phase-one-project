@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: red;
+  width: 100vw;
+  height: 100vh;
+}
+.parent {
+  background-color: #e7e8f1;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  color: black;
+}
+.parent .container {
+  height: 70%;
+  width: 50%;
+  display: flex;
+}
+
+.left {
+  background-color: white;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5em;
+  border-radius: 1em 0 0 1em;
+}
+
+.left form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.left form div {
+  display: flex;
+  flex-direction: column;
+}
+.left form div input {
+  font-size: 1.1em;
+  padding: 0.5em;
+  outline: none;
+  border-radius: 0.5em;
+  border: 1px solid #e2e2e2;
+  color: #6e6e6e;
+}
+.left form div:nth-child(3) input {
+  background-color: #3339cd;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+.left form div:nth-child(3) input:hover {
+  /* background-color: rgb(53, 57, 184); */
+  box-shadow: 0 0 20px rgba(51, 57, 205, 0.3);
+}
+
+.right {
+  background-color: white;
+  color: white;
+  width: 50%;
+  padding: 0.6em;
+  border-radius: 0 1em 1em 0;
+}
+
+.right img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 1em;
+}
+.sign-up a {
+  text-decoration: none;
+  font-weight: bold;
+}

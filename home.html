@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Coverlio :: Dashboard</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/src/styles/home.css" />
+  </head>
+
+  <body>
+    <div class="App">
+      <h1>
+        Hello Joshua, welcome to Coverlio
+        <span class="logout">
+          log out
+        </span>
+      </h1>
+
+      <form class="generate">
+        <textarea
+          type="text"
+          placeholder="type a keyword"
+          required
+          class="user-input"
+        ></textarea>
+
+        <input type="submit" value="get data" />
+      </form>
+
+      <div class="content" contenteditable="true">
+        <div class="title">
+          <h2>Heading</h2>
+          <div class="icon">
+            Copy
+          </div>
+        </div>
+        <p class="output-area">No response yet...</p>
+        <div>
+          <button>
+            Rewrite
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="src/js/home.js"></script>
+  </body>
+</html>

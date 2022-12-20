@@ -1,0 +1,23 @@
+{
+  "name": "phase-one-project",
+  "version": "1.0.0",
+  "description": "An app that help user generate cover letter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ayub2022/phase-one-project.git"
+  },
+  "keywords": [
+    "cover",
+    "letter"
+  ],
+  "author": "Ayub Kinyua",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ayub2022/phase-one-project/issues"
+  },
+  "homepage": "https://github.com/Ayub2022/phase-one-project#readme"
+}
